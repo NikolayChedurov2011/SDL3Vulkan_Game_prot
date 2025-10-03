@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31.5)
-project(SDL3_Engine)
+project(SDL3Vulkan_Game_prot)
 
 set(CMAKE_CXX_STANDART 20)
 set(CMAKE_CXX_STANDART_REQUIRED ON)
@@ -9,7 +9,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
 
 
-add_subdirectory(EngineCore)
+add_subdirectory(SDL3Vulkan_Engine_prot)
 add_subdirectory(Game)
 
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Game)
