@@ -1,0 +1,4 @@
+[submodule "SDL3Vulkan_Engine_prot"]
+	path = SDL3Vulkan_Engine_prot
+	url = https://github.com/NikolayChedurov2011/SDL3Vulkan_Engine_prot.git
+	branch = develop
