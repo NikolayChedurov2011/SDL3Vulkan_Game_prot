@@ -8,7 +8,7 @@ file(GLOB_RECURSE GAME_SOURCES CONFIGURE_DEPENDS
 add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PRIVATE ${GAME_SOURCES})
 
-target_link_libraries(${PROJECT_NAME} PRIVATE EngineCore)
+target_link_libraries(${PROJECT_NAME} PRIVATE SDL3Vulkan_Engine_prot)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
